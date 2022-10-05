@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.corpo-menu{
+    width:100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color:aqua;
+
+}
+.logo{
+    width: 70px;
+    height:70px;
+    background-color: black;
+}
+.menu{
+
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.menu-itens{
+
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.menu-itens li{
+    padding: 10px 20px;
+    background-color: brown;
+}
+
