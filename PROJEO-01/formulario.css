@@ -1,0 +1,43 @@
+.formulario{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 13.7863px;
+    gap: 13.79px;
+    color:#B53B7D;
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+}
+
+.top-img{
+
+    width: 447.19px;
+    height: 181.36px;
+    background: url(./assets/browe.png);
+    border: 2.58494px solid #EB5DAB;
+    border-radius: 8.61646px;
+}
+
+.check01{
+    width: 200px;
+    display: flex;
+    gap: 20px;
+
+}
+
+.barra{
+
+    width: 400px;
+    height: 40px;
+}
+
+.escrita{
+
+    width: 404.97px;
+    height: 62.9px;
+}
