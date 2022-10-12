@@ -3,6 +3,9 @@
     padding: 0px;
     box-sizing: border-box;
     list-style: none;
+    text-decoration: none;
+    
+
 }
 
 
@@ -14,20 +17,29 @@
     display: flex;
     justify-content: space-around;
     padding: 10px;
-    background-color:aqua;
-
+    background-color:#FAF6DB;
 }
 .logo{
     width: 70px;
     height:70px;
-    background-color: black;
+    
 }
+.logo-icon{
+    width: 100%;
+    
+}
+
 .menu{
 
     width: 70%;
     display: flex;
     justify-content: center;
     padding: 10px;
+    color:#B53B7D;
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 .menu-itens{
@@ -42,38 +54,128 @@
 
 .menu-itens li{
     padding: 10px 20px;
-    background-color: brown;
+    
+    
 }
+
+.menu-itens li:hover{
+    cursor: pointer;
+    color:#F2BFE0;
+    border-bottom: solid 4px #B53B7D;
+    transition-delay: 300ms;
+}
+
+.pesquisar{
+   
+    border: none;
+    padding: 10px 20px;
+    background: none;
+    
+}
+
+.pesquisa{
+   
+    width: 206px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    background: #F2BFE0;
+    border-radius: 3px;
+    
+}
+.pesquisa img{
+   
+    width: 20px;
+    height: 20px;
+    padding-left: 10px;
+    
+    
+}
+
+.pesquisa input{
+   
+    width: 100%;
+    height: 30px;
+    
+           
+}
+
+.pesquisa input:focus{
+    outline: none;
+}
+
+
 
 /* pricipal*/
 
 .secao01{
 
     width: 100vw;
-    height: 100%;
+    height: 780px;
     display: flex;
-    padding: 20px;
-    gap: 20px;
-    background-color:blueviolet;
+    background-image: url(./assets/Group\ 6bg-001.png);
 
 }
-.secao01 div {
 
-    width: 100px;
-    height: 100px;
-    background-color:rgb(10, 1, 18);
+.cor{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 20px;
+    gap:100px;
+    background: rgba(255, 216, 241, 0.64);
+
+}
+.textos{
+
+    width: 800px;
+    height:600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 7px dashed #fff;
+    border-radius: 3px;
+    
+
+}
+
+.logo-01{
+
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo-01 img{
+    width: 658px;
+    height: 500px;
+}
+
+
+
+.formulario-div{
+
+    width: 800px;
+    height:600px;
+    background-color:rgb(137, 2, 255);
 
 }
 
 /* footer*/
 footer{
     width: 100vw;
-    height: 100px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap:30px;
-    background-color: orange;
+    background-color:#FAF6DB;
 }
 
 footer div{
