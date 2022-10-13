@@ -175,11 +175,15 @@ footer{
     justify-content: center;
     align-items: center;
     gap:30px;
+    color:#B53B7D;
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color:#FAF6DB;
 }
 
 footer div{
     width:50px;
     height: 50px;
-    background-color: blueviolet;
+    
 }
