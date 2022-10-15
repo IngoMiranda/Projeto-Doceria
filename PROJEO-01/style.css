@@ -1,4 +1,5 @@
 *{
+    
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -14,6 +15,8 @@
 .corpo-menu{
     width:100vw;
     height: 100px;
+    position:fixed;
+
     display: flex;
     justify-content: space-around;
     padding: 10px;
@@ -108,25 +111,15 @@
 
 /* pricipal*/
 
-.secao01{
-
-    width: 100vw;
-    height: 780px;
-    display: flex;
-    background-image: url(./assets/Group\ 6bg-001.png);
-
-}
-
 .cor{
 
     width: 100%;
-    height: 100%;
+    height: 94vh;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items:center;
-    padding: 20px;
-    gap:100px;
-    background: rgba(255, 216, 241, 0.64);
+     background: rgba(255, 216, 241, 0.64);
 
 }
 .textos{
@@ -169,12 +162,12 @@
 
 /* footer*/
 footer{
-    width: 100vw;
-    height: 80px;
+    width: 100%;
+    height: 56px;
+    position: ;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:30px;
     color:#B53B7D;
     font-size: large;
     font-weight: 500;
@@ -182,8 +175,3 @@ footer{
     background-color:#FAF6DB;
 }
 
-footer div{
-    width:50px;
-    height: 50px;
-    
-}
