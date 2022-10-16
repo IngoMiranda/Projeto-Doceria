@@ -12,8 +12,8 @@ body{
 
     width: 100vw;
     height: 100vh;
-    /* overflow: hidden; */
-    /* object-fit: contain; */
+    background: #b53b7d;
+
 }
 
 
@@ -98,33 +98,21 @@ body{
     justify-content: center;
     align-items: center;
     color: #FAF6DB;
-    text-align: center;
-    justify-content: center;
     gap: 50px;
-    background: #b53b7d;
+    
 }
 
 .principal > div{
 
     width: 500px;
     height: 600px;
-    /* margin: 100px; */
     background:rgba(0, 0, 0, 0.202);
 
 }
 
-
-/* footer*/
-footer{
-    width: 100%;
-    height: 5vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color:#B53B7D;
-    font-size: .8rem;
-    font-weight: 500;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color:#FAF6DB;
+@media screen (max-width: 320px){
+    
 }
+
+
 
