@@ -1,118 +1,74 @@
 *{
     
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
-
 }
+
 body{
-
+    background: rgba(181, 59, 125, 1);
+}
+header{
     width: 100vw;
-    height: 100vh;
-    background: #b53b7d;
-
-}
-
-
-/* Menu*/
-
-.corpo-menu{
-    width:100vw;
-    height: 10vh;
-    /* position:fixed; */
+    height: 10%;
     display: flex;
+    align-items: center;
     justify-content: space-around;
-    padding: 10px;
-    background-color:#FAF6DB;
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.202);
+    object-fit: contain;
+    background: rgba(250, 246, 219, 1);
+
 }
+
+nav{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+    
+}
+header .logo > img{
+    width:70px;
+    height: 70px;
+}
+
+
+li > a{
+    
+    color:rgba(181, 59, 125, 1);
+}
+
 .menu{
 
-    width: 70vw;
     display: flex;
     justify-content: center;
-    padding: 10px;
-    color:#B53B7D;
-    font-size: 1rem large;
-    font-weight: 500;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-}
-.logo{
-    width: 70px;
-    height:70px;
-    
-}
-.logo-icon{
-    width: 100%;
-    
-}
-
-.menu-itens{
-    display: flex;
-    justify-content:center;
     align-items: center;
-    gap: 50px;
+    gap: 20px;
 }
-.menu-itens > li{
-    padding: 20px;
-    transition: all 300ms;
-}
-.pesquisa{
-    display: flex;
-    gap: 5px;
-    border: solid 2px #fff;
-    border-radius: 5px;
-    padding: 5px 15px  5px 15px;
-    background: rgba(242, 191, 224, 1);
-    
+.menu > li{
 
+    padding: 10px 20px 10px 20px;
 }
-
 .pesquisa > input{
 
-    outline: none;
-    border: none;
     background: none;
+    border: none;
+    padding: 5px 8px 5px 8px;
+
 }
-
-.menu-itens > li:hover {
-    cursor: pointer;
-    color:rgba(242, 191, 224, 1);
-    border-bottom: solid 2px #B53B7D;
+.pesquisa > input:focus{
+    outline: none;
 }
+.pesquisa{
 
-
-
-/* pricipal*/
-
-.principal{
-
-    width: 100vw;
-    height: 100vh;
+    padding: 10px 20px 10px 20px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    color: #FAF6DB;
-    gap: 50px;
-    
+    gap: 5px;
+    background:rgba(242, 191, 224, 1);
 }
-
-.principal > div{
-
-    width: 500px;
-    height: 600px;
-    background:rgba(0, 0, 0, 0.202);
-
-}
-
-@media screen (max-width: 320px){
-    
-}
-
-
-
