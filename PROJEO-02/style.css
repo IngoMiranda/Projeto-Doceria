@@ -1,0 +1,215 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+body{
+    background: rgba(242, 191, 224, 1);
+}
+
+/* Header menu*/
+header{
+    width: 100vw;
+    height: 10%;
+    display: flex;
+    position:fixed;
+    z-index: 1000;
+    align-items: center;
+    justify-content: space-around;
+    object-fit: contain;
+    background: rgba(250, 246, 219, 1);
+
+}
+
+nav{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    font-size: 1.3rem;
+    
+    
+}
+header .logo > img{
+    width:70px;
+    height: 70px;
+}
+
+
+.menu{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.menu > li > a{
+
+    padding: 10px 20px 10px 20px;
+    color:rgba(181, 59, 125, 1);
+    transition: all 300ms;
+}
+.pesquisa > input{
+
+    background: none;
+    border: none;
+    padding: 5px 8px 5px 8px;
+
+}
+.pesquisa > input:focus{
+    outline: none;
+}
+.pesquisa{
+
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    gap: 5px;
+    background:rgba(242, 191, 224, 1);
+}
+
+
+.menu li > a:hover{
+    color:rgba(242, 191, 224, 1);
+    border-bottom: solid 2px rgba(181, 59, 125, 1);
+}
+
+/*Principal - main */
+
+main{
+    display: flex;
+    height: 100%;
+    position: relative;
+    top: 100px;
+    padding: 50px;
+    gap: 100px;
+    
+
+}
+
+article{
+    width: 50%;
+    /* display: flex; */
+    /* align-items: center; */
+    
+}
+article > div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 3px dashed #fff;  
+   
+}
+
+img {
+
+    width: 100%;
+}
+
+
+
+aside{
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    
+   
+}
+
+.aside{
+
+    width: 70%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    /* background: aqua; */
+}
+
+.text{
+    width: auto;
+}
+
+.cor{
+    width: 100%;
+    font-size: 3rem;
+    font-weight: 800;
+    color:rgba(250, 246, 219, 1);
+}
+
+p{
+    margin-top: 1.5rem;
+    line-height: 1.5rem;
+    /* width: 70%; */
+    color: rgba(250, 246, 219, 1);
+    
+}
+
+form{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+  
+}
+
+form > input{
+    /* width: 70%; */
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background:rgb(243, 237, 241);
+    font-size: 1.3rem;
+        
+}
+
+form > button{
+    /* width: 70%; */
+    height: 50px;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    color: rgb(243, 237, 241);
+    background:rgba(181, 59, 125, 1);
+    font-size: 1.3rem;
+        
+}
+
+form .msg{
+
+    border-radius: 0px;
+    padding-bottom: 50px;
+}
+
+form > input:focus{
+    outline: none;
+    
+}
+
+form > input:hover{
+    color: aliceblue;
+    background:rgba(181, 59, 125, 1);
+}
+form > input:hover::placeholder{
+    
+    color:rgb(255, 255, 255);
+}
+
+form > button:hover{
+    cursor: pointer;
+    color: rgba(181, 59, 125, 1);
+    background:rgb(255, 255, 255);
+}
