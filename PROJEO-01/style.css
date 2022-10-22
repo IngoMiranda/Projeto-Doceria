@@ -11,7 +11,7 @@
 
 body{
     background: rgba(242, 191, 224, 1);
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 /* Header menu*/
@@ -35,6 +35,7 @@ nav{
     justify-content: center;
     align-items: center;
     gap: 20px;
+    font-size: 1.3rem;
     
     
 }
@@ -125,32 +126,29 @@ aside{
     
    
 }
-
-aside > .h2s{
-
-    font-size: 2rem;
-    font-weight: 300;
-    line-height: 3rem;
-    color:rgba(181, 59, 125, 1);
-    width: 600px;
+.text{
+    width: auto;
 }
+
 .cor{
+    font-size: 3rem;
     font-weight: 800;
     color:rgba(250, 246, 219, 1);
 }
 
-aside > p{
+p{
     margin-top: 1.5rem;
     line-height: 1.5rem;
-    max-width: 600px;
-    color: rgba(250, 246, 219, 1);;
+    width: 70%;
+    color: rgba(250, 246, 219, 1);
+    
 }
 
 form{
     width: 100%;
     display:flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     flex-direction: column;
   
 }
