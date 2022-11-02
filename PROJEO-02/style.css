@@ -6,6 +6,7 @@
     list-style: none;
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
     
 }
 
@@ -13,86 +14,5 @@ body{
     background: rgba(242, 191, 224, 1);
 }
 
-/* Header menu*/
-header{
-    width: 100vw;
-    height: 10%;
-    display: flex;
-    position:fixed;
-    z-index: 1000;
-    align-items: center;
-    justify-content: space-around;
-    object-fit: contain;
-    background: rgba(250, 246, 219, 1);
-
-}
-
-nav{
-    width: 50%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    gap: 20px;
-    font-size: 1.3rem;
-    
-    
-}
-header .logo > img{
-    width:70px;
-    height: 70px;
-}
-
-
-.menu{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-.menu > li > a{
-
-    padding: 10px 20px 10px 20px;
-    color:rgba(181, 59, 125, 1);
-    transition: all 300ms;
-}
-.pesquisa > input{
-
-    background: none;
-    border: none;
-    padding: 5px 8px 5px 8px;
-
-}
-.pesquisa > input:focus{
-    outline: none;
-}
-.pesquisa{
-
-    padding: 10px 20px 10px 20px;
-    display: flex;
-    gap: 5px;
-    background:rgba(242, 191, 224, 1);
-}
-
-
-.menu li > a:hover{
-    color:rgba(242, 191, 224, 1);
-    border-bottom: solid 2px rgba(181, 59, 125, 1);
-}
-
-/*Principal - main */
-
-main{
-    display: flex;
-    height: 100%;
-    position: relative;
-    top: 100px;
-    padding: 50px;
-    gap: 100px;
-    
-
-}
 
 
