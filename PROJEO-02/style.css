@@ -13,6 +13,59 @@
 body{
     background: rgba(242, 191, 224, 1);
 }
+html{
+    /* height: 100vh; */
+}
+
+.contaner{
+    width: 100%;
+   
+}
+.menu_bg{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background:rgba(250, 246, 219, 1);
+
+}
+
+.nav, ul, li{
+    display: none;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.hamburgue{
+    width: 70px;
+    height: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    background: rgba(242, 191, 224, 1);
+
+}
 
 
+.hamburgue::after{
+    width: 70px;
+    height: 10px;
+    margin: 37px auto;
+    display: block;
+    content: '';
+    border-radius: 10px;
+    background: rgba(242, 191, 224, 1);
 
+}
+
+.hamburgue::before{
+    width: 70px;
+    height: 10px;
+    margin: -16px auto;
+    display: block;
+    content: '';
+    border-radius: 10px;
+    background: rgba(242, 191, 224, 1);
+
+}
