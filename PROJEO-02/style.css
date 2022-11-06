@@ -13,20 +13,35 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,100;1,200;1,400;1,700&display=swap');
 
+
 body{
     background: rgba(242, 191, 224, 1);
+    width: 100vw;
 }
-html{
-    /* height: 100vh; */
-}
+
 
 .contaner{
     width: 100%;
    
+   
 }
+
+.btn_01{
+    height: 56px;
+    border:none;
+    border-radius: 9px;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    background: rgba(181, 59, 125, 1);
+}
+
+
 .menu_bg{
-    width: 100%;
+    width: 613px;
     display: flex;
+    margin: auto;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
@@ -83,11 +98,16 @@ html{
 
 }
 
+
+/* primeira seção*/
+
 .start{
 
-    width: 100%;
+    width: 613px;
     display: flex;
     flex-direction: column;
+    justify-items: center;
+    align-items: center;
 
 }
 
@@ -104,12 +124,13 @@ html{
     width: 95%;
     height: auto;
     margin: 50px auto;
-    
-
 }
 
+/* Segunda seção*/
+
 .welcome{
-    width: 100%;
+
+    width: 613px;
     display: flex;
     padding: 20px;
     flex-direction: column;
@@ -133,33 +154,78 @@ p{
     line-height: 1.3rem;
 
 }
+
 .img_01{
 
-    width: 100%;
-    display: flex;
-    position: relative;
-    padding: 10px;
+    width: 613px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
 }
+
 
 .img_01 img{
 
     width: 196px;
-    top: 48px;
+    
+}
+
+.img01{
+    position: relative;
+    left: 25px;
 }
 
 .img02{
-    position: absolute;
-    right: 10px;
+    position: relative;
+    right: 25px;
+    
 }
 
-.btn_01{
-    height: 56px;
-    border:none;
-    border-radius: 9px;
-    color: white;
-    font-size: 1.3rem;
-    font-weight: 700;
+/* terceira seção Galeria*/
+
+.productor{
+    width: 613px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(250, 246, 219, 1);
+}
+
+.productor h1{
+
     font-family: 'Poppins', sans-serif;
-    background: rgba(181, 59, 125, 1);
+    font-size: 2.3rem;
+    font-weight: 700;
+    font-style: italic;
+    color: rgba(181, 59, 125, 1);
+    text-align: center;
+
 
 }
+.gallery{
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+}
+
+@media (max-width: 360px){
+    
+    .gallery img {
+
+        width: 250px;
+        
+     
+    }
+     
+    
+}
+
+
+/* terceira seção Formulario*/
